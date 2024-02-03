@@ -1,0 +1,39 @@
+.add-on-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.add-on-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid #D6D9E6;
+    padding: 18px 20px;
+}
+.add-on-input-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.add-on-input-container input {
+    width: 20px;
+    height: 20px;
+    accent-color: #483EFF;
+    cursor: pointer;
+}
+.add-on-name {
+    color: #022959;
+    font-weight: 700;
+}
+.add-on-info {
+    color: #9699AA;
+    font-weight: 400;
+}
+.add-on-price {
+    color: #483EFF;
+}
+.checked-add-on {
+    border: 1px solid #483EFF !important;
+    background-color: #F8F9FF !important;
+}

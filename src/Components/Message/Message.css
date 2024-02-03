@@ -1,0 +1,26 @@
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin: -25px 16px;
+    text-align: center;
+    gap: 24px;
+    padding: 79px 24px;
+}
+.message-container img {
+    width: 56px;
+    height: 56px;
+}
+.message-container h1 {
+    color: #022959;
+    font-size: 24px;
+    font-weight: 700;
+}
+.message-container p {
+    color: #9699AA;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
